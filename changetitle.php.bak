@@ -1,0 +1,15 @@
+<?php
+include('include/bootstrap.php');
+//include('include/process/fetchUser_process.php');
+include('include/process/connect_process.php');
+//include('include/methods/functions.php');
+
+
+$list = $_GET['listID'];
+$title = $_GET['newtitle'];
+
+$query = "UPDATE lists SET name = '$title' WHERE listID = '$list'";
+$result = $connection->query($query);
+
+    
+?> 

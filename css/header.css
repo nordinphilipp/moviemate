@@ -1,0 +1,40 @@
+ul.header{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #00000065;
+    border-radius: 5px;
+}
+ul.header > li.left{
+    float:left;
+}
+ul.header > li.right{
+    float:right;
+}
+ul.header > li.rightmost{
+    background-color: rgba(255, 0, 0, 0.541);
+}
+ul.header > li.rightmost a:hover {
+    background-color: rgba(255, 0, 0, 0.829);
+}
+ul.header > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+li a:hover{
+    background-color:rgba(0, 0, 0, 0.527);
+
+    text-decoration: none;
+
+}
+.fa-search{
+    color:white;
+}
+.form-inline{
+    margin-top:10px;
+}

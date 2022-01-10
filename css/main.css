@@ -1,0 +1,57 @@
+html, body {
+    height: 100vh;
+}
+
+.min-100 {
+    min-height: 100vh;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.col-4 red lighten-3 a {
+    height: 60vh;
+}
+.center-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    margin: auto;
+    height: 50vh;
+    width: 50vh;
+    border: 1px solid #000;
+    font-weight: 400;
+}
+.row-title{
+    text-align: center;
+    padding: 5vh;
+}
+.form-group {
+    margin: auto;
+    height: 4vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+ul.movie_list{
+    display:flex;
+}
+.img {
+    border-color: black;
+}
+
+.card{
+    margin-top:20px;
+}
+.miniature{
+    width: 50px;
+}
+
+body{
+    background-color:darkred;
+    overflow: auto;
+}
+
