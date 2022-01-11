@@ -83,7 +83,7 @@ $user = getUsername($userid);
 						$id = $row['movieID'];					
 						$order=orderinlist($id);
 	
-						$rating = setrating($id,$userid);
+						$rating = setRating($id,$userid);
 	
 						$co = $co + 1;
 						$thumbs = "thumbs" . $co;
