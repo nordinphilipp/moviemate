@@ -41,7 +41,7 @@
                     <tbody>
                          <?php
 						 $co = 0;
-						$list = fetchmovies($listID);
+						$list = fetchMovies($listID);
 						$length = returnOrder($listID);
 						
 						while($row = $list->fetch_array())//gå igenom alla resultat
