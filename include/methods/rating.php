@@ -2,7 +2,7 @@
 //include('include/process/connect_process.php');
 //include('include/methods/functions.php');
 
-$user = "root";
+/* $user = "root";
 $pw = "";
 $host = "localhost";
 $db = "moviemate";
@@ -30,3 +30,4 @@ else
 }
 $connect->close();
 ?>
+*/
