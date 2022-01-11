@@ -152,7 +152,7 @@ if(isset($_GET['addComment']))
 		{ 
 		$commentID = $row['commentID'];
         $commentlink = "delete_comment.php?commentID=$commentID";
-		$username = getusername( $row['userID']);
+		$username = getUsername( $row['userID']);
 		?>	
 		<div class="row">
 			<div class="col-12">
