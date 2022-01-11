@@ -22,7 +22,7 @@ if(isset($_GET['addToList']))
 	
 	
 	foreach($lists as $v){
-		$length = returnorder($v);
+		$length = returnOrder($v);
 		$order = $length + 1;
 		addToList($v,$movie,$order,$userID);
 		
