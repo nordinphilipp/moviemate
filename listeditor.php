@@ -4,13 +4,13 @@ include('include/methods/functions.php');
 include('include/process/connect_process.php');
 
 
-$userid= $_SESSION['userID'];
+$userID = $_SESSION['userID'];
 
 $listID = $_GET['listID'];
 
 $title = getTitle($listID);
 
-$user = getUsername($userid);
+$user = getUsername($userID);
 
 ?>
 <!DOCTYPE html>
@@ -83,7 +83,7 @@ $user = getUsername($userid);
 						$id = $row['movieID'];					
 						$order=orderInList($id);
 	
-						$rating = setRating($id,$userid);
+						$rating = setRating($id,$userID);
 	
 						$co = $co + 1;
 						$thumbs = "thumbs" . $co;
