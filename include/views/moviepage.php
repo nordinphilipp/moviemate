@@ -147,7 +147,7 @@ if(isset($_GET['addComment']))
 				</div>
 			</div>
 		<?php
-		$check = getcomments($movie);
+		$check = getComments($movie);
 		while($row = $check->fetch_array())
 		{ 
 		$commentID = $row['commentID'];
