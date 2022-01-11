@@ -85,7 +85,7 @@ if(isset($_GET['addComment']))
 										<form action="moviepage.php?id=$id" method="get">
 										<?php
 				
-										$check = getlist($userid);
+										$check = getList($userid);
 										$counter = 0;
 										while($row = $check->fetch_array())//gå igenom alla resultat
 										{
