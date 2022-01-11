@@ -7,7 +7,5 @@ $list = $_GET['listID'];
 $title = $_GET['newtitle'];
 
 $query = "UPDATE lists SET name = '$title' WHERE listID = '$list'";
-$result = $connection->query($query);
-
-    
+mysqli_query($connection,$query);   
 ?> 
