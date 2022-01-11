@@ -42,7 +42,7 @@
                          <?php
 						 $co = 0;
 						$list = fetchmovies($listID);
-						$length = returnorder($listID);
+						$length = returnOrder($listID);
 						
 						while($row = $list->fetch_array())//gå igenom alla resultat
 						{
