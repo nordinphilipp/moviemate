@@ -1,7 +1,3 @@
-<?php
-	include('include/methods/functions.php');
-	include('include/process/fetchUser_process.php');
-?>
 <html>
         <body>
             <div class="container-fluid">
