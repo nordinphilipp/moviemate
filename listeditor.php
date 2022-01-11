@@ -75,8 +75,8 @@ $user = getUsername($userid);
                     <tbody>
                         <?php 
 						$co = 0;
-						$length = returnorder($listID);
-						$check = fetchmovies($listID);
+						$length = returnOrder($listID);
+						$check = fetchMovies($listID);
 	
 						while($row = $check->fetch_array())//gå igenom alla resultat
 						{	
