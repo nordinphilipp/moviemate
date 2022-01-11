@@ -11,7 +11,7 @@ else
 {
 	$userid = -1;
 }
-if(isset($_GET['addtolist']))
+if(isset($_GET['addToList']))
 {
 	$movie = $_GET['id'];
 	$lists;
@@ -24,7 +24,7 @@ if(isset($_GET['addtolist']))
 	foreach($lists as $v){
 		$length = returnorder($v);
 		$order = $length + 1;
-		addtolist($v,$movie,$order,$userID);
+		addToList($v,$movie,$order,$userID);
 		
 	}
 	
@@ -101,7 +101,7 @@ if(isset($_GET['addComment']))
 										<?php
 										}
 										?>
-										<button type="submit" name="addtolist" class="btn btn-danger">Add</button>
+										<button type="submit" name="addToList" class="btn btn-danger">Add</button>
 										</form> 
 									</div>
 
