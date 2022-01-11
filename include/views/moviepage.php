@@ -1,8 +1,6 @@
 <?php
 $userID = $_SESSION['userID'];
 $movie = $_GET['id'];
-include('include/process/connect_process.php');
-include('include/methods/functions.php');
 if(isset($_SESSION['userID']))
 {
 	$userid = $_SESSION['userID'];
