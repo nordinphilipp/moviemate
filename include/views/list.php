@@ -5,7 +5,7 @@
 		$listID = $_GET['listID'];
 		$editLink = "listeditor.php?listID=$listID";
 		$deleteLink = "delete_list.php?listID=$listID";
-		$title = gettitle($listID);
+		$title = getTitle($listID);
 		
 ?>   
 
