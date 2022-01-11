@@ -47,7 +47,7 @@
 						while($row = $list->fetch_array())//gå igenom alla resultat
 						{
 							$movie = $row['movieID'];
-							$order = orderinlist($movie);
+							$order = orderInlLst($movie);
 							
 							$rating = setRating($movie,$userID);
 								
