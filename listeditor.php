@@ -8,7 +8,7 @@ $userid= $_SESSION['userID'];
 
 $listID = $_GET['listID'];
 
-$title = gettitle($listID);
+$title = getTitle($listID);
 
 $user = getusername($userid);
 
