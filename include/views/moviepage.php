@@ -31,9 +31,9 @@ if(isset($_GET['addtolist']))
 	//header('location:moviepage.php?id='.$movie);
 	
 }
-if(isset($_GET['addcomment']))
+if(isset($_GET['addComment']))
 {
-	addcomment($_GET['comment'],$userid,$movie);
+	addComment($_GET['comment'],$userid,$movie);
 	header('location:moviepage.php?id='.$movie);
 }
 ?>
@@ -139,7 +139,7 @@ if(isset($_GET['addcomment']))
 					<form action="" method="get">
 						<input type="hidden" value="<?php echo $movie?>" name="id">
 						<textarea class="form-control"  name="comment" placeholder="Comment..."></textarea>
-						<button type="submit" class="btn btn-primary" name="addcomment">Submit</button>
+						<button type="submit" class="btn btn-primary" name="addComment">Submit</button>
 					</form>
 					<?php
 					}
