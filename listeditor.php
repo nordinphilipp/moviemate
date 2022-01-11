@@ -81,7 +81,7 @@ $user = getUsername($userid);
 						while($row = $check->fetch_array())//gå igenom alla resultat
 						{	
 						$id = $row['movieID'];					
-						$order=orderinlist($id);
+						$order=orderInList($id);
 	
 						$rating = setRating($id,$userid);
 	
