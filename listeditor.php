@@ -10,7 +10,7 @@ $listID = $_GET['listID'];
 
 $title = getTitle($listID);
 
-$user = getusername($userid);
+$user = getUsername($userid);
 
 ?>
 <!DOCTYPE html>
