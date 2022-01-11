@@ -49,7 +49,7 @@
 							$movie = $row['movieID'];
 							$order = orderinlist($movie);
 							
-							$rating = setrating($movie,$userID);
+							$rating = setRating($movie,$userID);
 								
 							$co = $co + 1;
 							$thumbs = "thumbs" . $co;
